@@ -1,0 +1,17 @@
+
+https://motojapan.hateblo.jp/entry/2018/02/05/090330
+jsonデータの返信方法をメモ
+送信側実装 (python:flask)
+　return jsonify(ResultSet=res)　 res ={ dictionary }
+　
+Javascript　
+https://ja.javascript.info/json
+JSON.stringify() は値をそJSON 表記に変換します
+
+JSON.stringify : オブジェクトをJSONに変換します。
+JSON.parse : JSONをオブジェクトに変換します。
+
+
+クライアントからサーバへの要求することをリクエストといいます。
+サーバからブラウザへ応答することをレスポンスといいます。
+
